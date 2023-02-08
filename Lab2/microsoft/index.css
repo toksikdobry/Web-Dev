@@ -1,0 +1,184 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    font-family: 'Segoe UI',"Helvetica Neue",sans-serif;}
+p, h1, h2{
+    font-family: 'Segoe UI',"Helvetica Neue",sans-serif;}
+.top-side{
+    display: flex;
+    height: 100%;
+    max-width: 100%;
+    position: relative;
+    box-sizing: inherit;
+    color: #262626;
+    text-align: center;
+
+}
+.top-side a, p{
+    color: #262626;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 1px;
+    padding: 16px 8px 10px;
+    outline-offset: -2px;
+    line-height: 1.5;
+}
+.logo{
+    padding: 16px 6px 16px 10px;
+    float: left;
+    height: 100%;
+    margin-top: 1px;
+    margin-left: 140px;
+    width: 137px;
+    outline-offset: -2px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #262626;
+}
+
+.c-image{
+    width: 108px;
+    height: 23px;
+    margin: -3px 0px 0px;
+}
+.right-top{
+    display: flex;
+    float: right;
+    margin-left: 600px;
+}
+.login{
+    display: flex;
+    float: right;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.person{
+    background-image: url("person.svg");
+    width: 32px;
+    height: 32px;
+}
+.center{
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-Windows11-GlobalLaunch:VP5-1920x600");
+    min-height: 600px;
+    width: 100%;
+    filter: blur(0);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+    margin: auto 0;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+.left-center{
+    padding: 48px;
+}
+.center-up h2, h1{
+    font-size: 2.3125rem;
+    margin-bottom: 1.25rem;
+    font-size: 37px;
+    font-weight: 600;
+    color: #FFFF;
+}
+.center-up{
+    margin-left: 100px;
+    margin-top: 140px;
+}
+.center-mid p{
+    color: #FFFF;
+    margin: 0 0 24px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.center-mid{
+    margin-left: 90px;
+}
+.center-mid p, a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.center-bottom{
+    width: 230px;
+    height: 25px;
+    background-color: #0067b8;;
+    margin-left: 100px;
+    border-radius: 3px;
+    text-align: unset;
+    padding-bottom: 30px;
+}
+.under-row{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 120px;
+}
+.col-1{
+    display: inline;
+}
+.col-1-photo{
+    width: 380px;
+    height: 210px;
+}
+.micro-365{
+    margin: 0 0 12px;
+}
+.micro-365 h2{
+    font-size: 1.5rem;
+    margin-bottom: .75rem;
+    font-weight: 600;
+}
+.col-1-text{
+    width: 280px;
+    padding: 0;
+    margin-left: -10px;
+    text-align: left;
+}
+.col-1-text a{
+    color: #0067b8;
+    margin-left: 5px;
+}
+.col-1-text p{
+    font-size: 16px;
+}
+.col-2{
+    margin-left: 30px;
+    display: inline;
+}
+.col-2-photo{
+    width: 380px;
+    height: 210px;
+}
+.col-2-photo img{
+    width: 380px;
+    height: 213px;
+}
+.microsoft-edge h2{
+    font-size: 1.5rem;
+    margin-bottom: .75rem;
+    font-weight: 600;
+}
+.microsoft-edge{
+    margin: 0 0 12px;
+}
+.col-2-text{
+    width: 280px;
+    padding: 0;
+    margin-left: -10px;
+    text-align: left;
+}
+.col-2-text a{
+    color: #0067b8;
+    margin-left: 5px;
+}
+.col-2-text p{
+    font-size: 16px;
+}
+.under-row{
+    margin-left: 150px;
+}
