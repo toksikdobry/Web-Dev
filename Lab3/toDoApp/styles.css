@@ -1,0 +1,110 @@
+* {
+    margin: 0
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    height: 100%;
+    font-family: sans-serif;
+    background-color: azure;
+}
+
+.app {
+    width: 70%;
+}
+
+.app h1 {
+    color: white;
+    font-size: 25px;
+    padding: 10px 0;
+    background-color: #0dae4d;
+    padding-left: 15px;
+    border-bottom: 1px solid #1d4f28;
+    border-radius: 3px;
+}
+
+.app form {
+    padding-top: 15px;
+    display: flex;
+    width: 100%;
+}
+
+.app form input {
+    border: none;
+    background-color: #00da8a;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    width: 80%;
+    margin-right: 5px;
+    border-bottom: 1px solid #1d4f28;
+    border-radius: 3px;
+}
+
+.app form button {
+    color: white;
+    background-color: #1dd2af;
+    font-size: 25px;
+    font-weight: 600;
+    width: 15%;
+    border: none;
+    border-bottom: 1px solid #1d4f28;
+    border-radius: 3px;
+}
+
+.app ul {
+    list-style: none;
+    color: #e0e0e0;
+    padding: 0;
+    border-radius: 3px;
+}
+
+.app ul li {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #00da8a;
+    border-bottom: 1px solid #1d4f28;
+    border-radius: 3px;
+}
+
+.check {
+    width: 0.8em;
+    height: 0.8em;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.check:checked {
+    background-color: #1dd2af;
+}
+
+.task {
+    font-size: 18px;
+    padding: 0 10px;
+    width: fit-content;
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+
+.task:focus {
+    outline: none;
+}
+
+.app ul li i {
+    float: right;
+    cursor: pointer;
+}
+
+.app ul li i:hover {
+    color: rgb(255, 82, 82);
+}
+
+.completed {
+    color: rgba(192, 192, 192, 0.8);
+    text-decoration: line-through;
+}
