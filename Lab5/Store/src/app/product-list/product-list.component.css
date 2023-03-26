@@ -1,0 +1,54 @@
+.prod{
+    width: 250px;
+    
+    height: auto;
+    padding: 10px;
+    border: 1px solid #e8e8e8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.rat{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 200px;
+    height: 250px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+}
+
+.like{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.like a{
+    padding: 10px;
+}
+
+
+.like img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/

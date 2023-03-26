@@ -1,0 +1,37 @@
+<div class="header">
+  <a [routerLink]="['/']">
+    <h1>LOGO</h1>
+  </a>
+  <ul>
+    <li>
+      <div class="dropdown">
+        Все категории
+        <div class="dropdown-content">
+          <div *ngFor="let cat of categories">  
+              <a (click)="category(cat.name)">
+                {{ cat.name }} 
+              </a>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <a (click)="favourites()">
+        Избранное
+      </a>
+    </li>
+    <li>
+      Корзина
+    </li>
+    <li>
+      Акции
+    </li>
+  </ul>
+</div>
+
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->

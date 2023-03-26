@@ -1,0 +1,35 @@
+<div *ngFor="let product of newProducts;" class="prod" onload="setCat()">
+  <div class="image">
+    <img [src]="product.image">
+  </div>
+  <div class="item-info">
+    <h3>
+      <a [title]="product.name + ' details'" [href]="product.url">
+        {{ product.name }}
+      </a>
+    </h3>
+  
+    <p *ngIf="product.description">
+      {{ product.description }}
+    </p>
+    <div class="rat">
+      <h4>Rating: {{product.rating}}</h4>
+    </div>
+    <div class="but">
+      <button type="button" (click)="share(product.name, product.url)">
+        Поделиться
+      </button>
+    </div>
+    <p>Amount of likes: {{product.likes}}</p>
+    <div class="like">
+      <div>
+        <a (click)="like(product.id)">
+          <img src="assets/images/like.png">
+        </a>
+        <a (click)="del(product.id)">
+          <img src="assets/images/trash.png">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
